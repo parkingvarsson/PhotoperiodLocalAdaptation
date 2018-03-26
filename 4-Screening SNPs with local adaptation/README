@@ -1,0 +1,24 @@
+PCAdapt.SwAsp94.R
+PCAadapt test
+
+pcadapt_fst_cor.R
+The relationship between PCadapt results and Fst values
+
+pca_corr_env.R
+PCA analysis for the environment data
+
+env_PC.error_bar.R
+Relationship between the environmental PC1 scores and the number of days with degree higher than 5
+
+LEA.K1.R LEA.K2.R LEA.K3.R
+use a latent factor mixed-effect model (LFMM) implemented in the R package LEA to detect SNPs associated with first environmental PC, with the latent factors (K) from 1 to 3.
+
+LEA_zscore.94samples.R
+Transform the z-scores from LFMM results to p-values
+
+Ekebo_Savar_budset.as
+Use Asreml to estimate the genetic values of bud set
+
+GEMMA.lmm.noPC.budset.sh
+Use GEMMA to do GWAS for budset
+
