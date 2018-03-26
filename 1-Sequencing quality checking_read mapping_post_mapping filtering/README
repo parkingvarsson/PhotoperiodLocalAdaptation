@@ -1,0 +1,11 @@
+QualityControl.sh
+Use Trimmomatic v0.30 and FastQC to do sequence quality checking
+
+runBWA_mem_asp201.SwAsp.sh
+Use BWA-MEM to do read mapping
+
+Picard_markduplicates_SwAsp.sh
+Use Picard to correct for artifacts of PCR duplication
+
+realign.sh
+Use GATK to do read realignment around indels
