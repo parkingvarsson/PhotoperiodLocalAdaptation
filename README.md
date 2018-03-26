@@ -57,7 +57,7 @@ Scripts for Wang et al. (2017) "A major locus controls local adaptation and adap
 
         Figure2 - scripts for recreating Figure 2
 
-        chr10.gemma.ld_Dprime.R - calculate LD and colorise points relative to tthe top SNP in PtFT2
+            chr10.gemma.ld_Dprime.R - calculate LD and colorise points relative to tthe top SNP in PtFT2
             
             excute_manhanttan.sh - shell script for manhattan plots
             
