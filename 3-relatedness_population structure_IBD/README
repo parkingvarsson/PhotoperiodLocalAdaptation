@@ -1,0 +1,17 @@
+plink_prunedLD.sh
+Use PLINK to generate Linkage-disequilibrium(LD)-trimmed SNP sets
+
+eigen_pop_genetics.sh
+Use smartpca program in EIGENSOFT to perform PCA analysis
+
+fst_matrix.R
+create the matrix of Fst estimates
+
+Isolation_by_distance.R
+create the matrix of geographic distance
+
+SwAsp.IBD.plot.R
+plot Isolation-by-distance
+
+mantel.R
+Mantel test 
