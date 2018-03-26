@@ -3,7 +3,7 @@ Scripts for Wang et al. (2017) "Natural variation at FLOWERING LOCUS T2 mediates
 
 Documentation of Scripts
 
-1. Sequencing quality checking, read mapping and post-mapping filtering
+<b>1. Sequencing quality checking, read mapping and post-mapping filtering</b>
 
 QualityControl.sh
 Use Trimmomatic v0.30 and FastQC to do sequence quality checking
@@ -17,7 +17,7 @@ Use Picard to correct for artifacts of PCR duplication
 realign.sh
 Use GATK to do read realignment around indels
 
-2. SNP and genotype calling
+<b>2. SNP and genotype calling</b>
 
 HaplotypeCaller_mem_tremula.sh
 Use GATK to do SNP calling
@@ -29,7 +29,7 @@ vcf_to_maf.sh vcf2maf.pl
 Use perl script to map each variant to only one of all possible gene isoforms
 
 
-3. Relatedness, population structure and isolation-by-distance
+<b>3. Relatedness, population structure and isolation-by-distance</b>
 
 plink_prunedLD.sh
 Use PLINK to generate Linkage-disequilibrium(LD)-trimmed SNP sets
@@ -49,7 +49,7 @@ plot Isolation-by-distance
 mantel.R
 Mantel test 
 
-4. Screening for SNPs associated with local adaptation
+<b>4. Screening for SNPs associated with local adaptation</b>
 
 PCAdapt.SwAsp94.R
 PCAadapt test
@@ -76,7 +76,7 @@ GEMMA.lmm.noPC.budset.sh
 Use GEMMA to do GWAS for budset
 
 
-5. Genotype imputation
+<b>5. Genotype imputation</b>
 
 define_ancestral.SwAsp.pseudo_chr.sh
 Use BEAGLE to do genotype imputation and also define ancestal and derived allele based on the sequences of outgroup species of P.tremuloides and P.trichocarpa
@@ -97,7 +97,7 @@ impute_evaluate.R
 Evaluate the imputation accuracy
 
 
-6. Positive selection
+<b>6. Positive selection</b>
 
 angsd_SFS_SwAsp.all.sh
 Use ANGSD to estimate the genetic diversity in specific groups of populations
