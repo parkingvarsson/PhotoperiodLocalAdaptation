@@ -1,7 +1,7 @@
 # PhotoperiodLocalAdaptation
 Scripts for Wang et al. (2017) "Natural variation at FLOWERING LOCUS T2 mediates local adaptation in a key life history trait in European aspen". https://www.biorxiv.org/content/early/2017/12/13/178921
 
-Documentation of Scripts
+<h2>Documentation of Scripts</h2>
 
 <b>1. Sequencing quality checking, read mapping and post-mapping filtering</b>
 
