@@ -55,11 +55,17 @@ Scripts for Wang et al. (2017) "A major locus controls local adaptation and adap
         
         Figure2 - scripts for recreating Figure 2
             chr10.gemma.ld_Dprime.R - calculate LD and colorise points relative to tthe top SNP in PtFT2
+            
             excute_manhanttan.sh - shell script for manhattan plots
+            
             FT2.gemma.ld_Dprime.R - plot associations and colorise according to LD for the PtFT2 SNPs
+            
             legend.col.R - plot legend
+            
             manhanttan_plot.R - manhattan plots (modified from https://cran.r-project.org/web/packages/qqman/index.html)
+            
             manhanttan.3methods.R - plot manhattan plots and qqplots and combine for three types of analyses (PCAdapt, LFMM, GWAS)
+            
             scaffold_likely_wrong.txt - scaffolds that are likely missasembled and therefore exluded from the plots
 
 <b>5. Genotype imputation</b>
