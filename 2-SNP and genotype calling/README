@@ -1,0 +1,8 @@
+HaplotypeCaller_mem_tremula.sh
+Use GATK to do SNP calling
+
+snpEff.gatk.sh
+Use snpEff to annotate the SNPs
+
+vcf_to_maf.sh vcf2maf.pl
+Use perl script to map each variant to only one of all possible gene isoforms
