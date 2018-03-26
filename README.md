@@ -4,18 +4,14 @@ Scripts for Wang et al. (2017) "Natural variation at FLOWERING LOCUS T2 mediates
 Documentation of Scripts
 
 <b>1. Sequencing quality checking, read mapping and post-mapping filtering</b>
+<p style="margin-left: 40px">
+QualityControl.sh - Use Trimmomatic v0.30 and FastQC to do sequence quality checking</p>
 
-QualityControl.sh
-Use Trimmomatic v0.30 and FastQC to do sequence quality checking
+runBWA_mem_asp201.SwAsp.sh - Use BWA-MEM to do read mapping
 
-runBWA_mem_asp201.SwAsp.sh
-Use BWA-MEM to do read mapping
+Picard_markduplicates_SwAsp.sh - Use Picard to correct for artifacts of PCR duplication
 
-Picard_markduplicates_SwAsp.sh
-Use Picard to correct for artifacts of PCR duplication
-
-realign.sh
-Use GATK to do read realignment around indels
+realign.sh - Use GATK to do read realignment around indels
 
 <b>2. SNP and genotype calling</b>
 
