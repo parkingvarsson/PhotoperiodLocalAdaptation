@@ -1,0 +1,17 @@
+define_ancestral.SwAsp.pseudo_chr.sh
+Use BEAGLE to do genotype imputation and also define ancestal and derived allele based on the sequences of outgroup species of P.tremuloides and P.trichocarpa
+
+Beagle_comparison.sh
+Create several missing genotypes for simulation
+
+Create_simu_missing_file.sh
+Tor simulate by BEAGLE and calculate accuracy
+
+createFile_imputate.R
+Create imputation files with different level of missing values
+
+impute_accuracy_beagle_vcf.pl
+Calculate the imputation accuracy by each sample and SNP
+
+impute_evaluate.R
+Evaluate the imputation accuracy
