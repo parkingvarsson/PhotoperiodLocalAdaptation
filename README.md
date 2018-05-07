@@ -1,8 +1,6 @@
 # PhotoperiodLocalAdaptation
 Scripts for Wang et al. (2017) "A major locus controls local adaptation and adaptive life history variation in a perennial plant". https://www.biorxiv.org/content/early/2017/12/13/178921
 
- https://zenodo.org/badge/100579273.svg
-
 <h2>Documentation of Scripts</h2>
 
 <b>1. Sequencing quality checking, read mapping and post-mapping filtering</b>
